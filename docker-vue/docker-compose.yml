@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  app:
+    image: andromeda9096/dockerize-vue:v1
+    ports:
+      - "4000:80"
+    restart: unless-stopped
